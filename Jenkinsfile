@@ -42,8 +42,9 @@ pipeline {
 
                  script{
         def scannerHome = tool 'sonarqubeMS'
-           
+            withSonarQubeEnv() {
           dotnetsonarqube.scan("mvp-dotnet")
+            }
                  }
              }
   }
