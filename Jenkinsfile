@@ -32,26 +32,13 @@ pipeline {
         }
 
          stage('SonarQube Analysis') {
-           environment {
-        SCANNER_HOME = tool 'sonarqubeMS'
-      }
-            steps {
-                // Run SonarScanner for .NET
-        
-                script {
-                    SONARQUBE_SERVER='http://34.42.7.89:9000/'
-                    SONARQUBE_TOKEN='sonartoken'
-                       
-                 withSonarQubeEnv('Sonar') {
-                sh '  dotnet sonarscanner begin /k:"HelloWorld" /d:sonar.host.url="http://34.42.7.89:9000/" /d:sonar.login="admin" /d:sonar.password="admin" '
-
-                   sh 'dotnet build'
-                sh 'dotnet sonarscanner end /d:sonar.login="admin" /d:sonar.password="admin"'
-                }
-                    
-                }
-            }
-        }
+    def scannerHome = tool 'SonarScanner for MSBuild'
+    withSonarQubeEnv() {
+      bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll begin /k:\"mvp-dotnet\""
+      bat "dotnet build"
+      bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll end"
+    }
+  }
  
 
      
