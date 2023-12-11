@@ -13,8 +13,7 @@ pipeline {
             steps {
                 script {
                   
-                    sh 'dotnet restore'
-                    sh 'dotnet build'
+                 dotnetSteps.build()
                 }
             }
         }
@@ -23,7 +22,7 @@ pipeline {
             steps {
                 script {
                     // Run tests for your .NET application
-                    sh 'dotnet test'
+                   dotnetSteps.test()
                 }
             }
         }
@@ -32,7 +31,7 @@ pipeline {
             steps {
                 script {
                     // Publish your .NET application if needed
-                    sh 'dotnet publish -c Release'
+                    dotnetSteps.publish()
                 }
             }
         }
