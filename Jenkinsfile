@@ -37,13 +37,19 @@ pipeline {
       }
             steps {
                 // Run SonarScanner for .NET
+                environment {
+        SCANNER_HOME = tool 'sonarqubeMS'
+      }
                 script {
                     SONARQUBE_SERVER='http://34.42.7.89:9000/'
                     SONARQUBE_TOKEN='sonartoken'
                        
-                    sh "dotnet sonarscanner begin /k:\"YourProjectKey\" /d:sonar.host.url=${SONARQUBE_SERVER} /d:sonar.login=${SONARQUBE_TOKEN}"
-                    sh 'dotnet build'
-                    sh 'dotnet sonarscanner end /d:sonar.login=${SONARQUBE_TOKEN}'
+                 withSonarQubeEnv('Sonar') {
+                sh '  dotnet sonarscanner begin /k:"HelloWorld" /d:sonar.host.url="http://34.42.7.89:9000/" /d:sonar.login="admin" /d:sonar.password="admin" '
+
+                   sh 'dotnet build'
+                sh 'dotnet sonarscanner end /d:sonar.login="admin" /d:sonar.password="admin"'
+                }
                     
                 }
             }
