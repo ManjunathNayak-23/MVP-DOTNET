@@ -32,14 +32,12 @@ pipeline {
         }
 
          stage('SonarQube Analysis') {
-             environment {
-        SCANNER_HOME = tool 'Sonar-scanner'
+           environment {
+        SCANNER_HOME = tool 'sonarqubeMS'
       }
             steps {
                 // Run SonarScanner for .NET
-                environment {
-        SCANNER_HOME = tool 'sonarqubeMS'
-      }
+        
                 script {
                     SONARQUBE_SERVER='http://34.42.7.89:9000/'
                     SONARQUBE_TOKEN='sonartoken'
