@@ -48,52 +48,50 @@ pipeline {
              }
   }
 
-//         stage('zip artifact'){
-//         steps{
-//             script{
+        stage('zip artifact'){
+        steps{
+            script{
 
-//                 sh 'tar -czvf artifact.tar.gz bin/Release/net6.0'
+                sh 'tar -czvf artifact.tar.gz bin/Release/net6.0'
     
 
-//             }
+            }
 
 
-//         }
+        }
 
 
-//         }
-//         stage('Deploy to Nexus') {
-//       steps {
-//         script {
+        }
+        stage('Deploy to Nexus') {
+      steps {
+        script {
 
-//           withCredentials([string(credentialsId: 'nexusurl', variable: 'NEXUS_URL'), string(credentialsId: 'mvp-dotnet-nexus-id', variable: 'NEXUS_REPO_ID'), string(credentialsId: 'nexuspassword', variable: 'NEXUS_PASSWORD'), string(credentialsId: 'nexususername', variable: 'NEXUS_USERNAME')]) {
-//  def curlCommand = """
-// curl -v -u ${NEXUS_USERNAME}:${NEXUS_PASSWORD} --upload-file artifact.tar.gz ${NEXUS_URL}/repository/${NEXUS_REPO_ID}/${PACKAGE_NAME}/${PACKAGE_NAME}-${env.BUILD_ID}.tar.gz         """
-//  sh curlCommand
+          withCredentials([string(credentialsId: 'nexusurl', variable: 'NEXUS_URL'), string(credentialsId: 'mvp-dotnet-nexus-id', variable: 'NEXUS_REPO_ID'), string(credentialsId: 'nexuspassword', variable: 'NEXUS_PASSWORD'), string(credentialsId: 'nexususername', variable: 'NEXUS_USERNAME')]) {
+       dotnetNexus.push(NEXUS_USERNAME, NEXUS_PASSWORD, NEXUS_URL, NEXUS_REPO_ID, PACKAGE_NAME)
     
-//           }
-//         }
-//       }
-//     }
+          }
+        }
+      }
+    }
 
-// stage('Build and Push Docker Image') {
-//       steps {
-//         script {
+stage('Build and Push Docker Image') {
+      steps {
+        script {
 
-//           dockertask.buildAndPush(env.IMAGE_NAME, env.BUILD_ID, env.DOCKERFILE_PATH, env.DOCKER_HUB_CREDENTIALS)
-//         }
-//       }
-//     }
+          dockertask.buildAndPush(env.IMAGE_NAME, env.BUILD_ID, env.DOCKERFILE_PATH, env.DOCKER_HUB_CREDENTIALS)
+        }
+      }
+    }
  
 
      
-//         stage('OWASP Dependency-Check Vulnerabilities') {
-//       steps {
-//         script {
-//           dependencyCheckTask.owaspDependencyCheck()
-//         }
-//       }
-//     }
+        stage('OWASP Dependency-Check Vulnerabilities') {
+      steps {
+        script {
+          dependencyCheckTask.owaspDependencyCheck()
+        }
+      }
+    }
 
         
     }
