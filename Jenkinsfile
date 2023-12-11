@@ -30,19 +30,27 @@ pipeline {
                 }
             }
         }
-         stage('SonarQube analysis') {
-      environment {
+
+         stage('SonarQube Analysis') {
+             environment {
         SCANNER_HOME = tool 'Sonar-scanner'
       }
-      steps {
-        script {
-          withSonarQubeEnv(credentialsId: 'sonartoken', installationName: 'Sonar') {
-            sonarqube.sonarscan("mvp-dotnet",
-              "mvp-dotnet")
-          }
+            steps {
+                // Run SonarScanner for .NET
+                script {
+                    SONARQUBE_SERVER='http://34.42.7.89:9000/'
+                    SONARQUBE_TOKEN='sonartoken'
+                       
+                    sh "dotnet sonarscanner begin /k:\"YourProjectKey\" /d:sonar.host.url=${SONARQUBE_SERVER} /d:sonar.login=${SONARQUBE_TOKEN}"
+                    sh 'dotnet build'
+                    sh 'dotnet sonarscanner end /d:sonar.login=${SONARQUBE_TOKEN}'
+                    
+                }
+            }
         }
-      }
     }
+
+     
         stage('OWASP Dependency-Check Vulnerabilities') {
       steps {
         script {
