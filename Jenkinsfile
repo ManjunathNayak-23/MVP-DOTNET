@@ -55,7 +55,7 @@ pipeline {
         steps{
             script{
 
-                sh 'tar -czvf artifact.tar.gz /bin/Release/net6.0'
+                sh 'tar -czvf artifact.tar.gz bin/Release/net6.0'
     
 
             }
