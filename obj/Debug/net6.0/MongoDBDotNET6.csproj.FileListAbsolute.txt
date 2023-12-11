@@ -1,0 +1,192 @@
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\appsettings.json
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDBDotNET6.exe
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDBDotNET6.deps.json
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDBDotNET6.runtimeconfig.json
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDBDotNET6.pdb
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\linux\native\libsnappy64.so
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\linux\native\libzstd.so
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\osx\native\libzstd.dylib
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.csproj.AssemblyReference.cache
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.AssemblyInfoInputs.cache
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.AssemblyInfo.cs
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.csproj.CoreCompileInputs.cache
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\staticwebassets\msbuild.MongoDBDotNET6.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\staticwebassets\msbuild.build.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\scopedcss\bundle\MongoDBDotNET6.styles.css
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.csproj.CopyComplete
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\refint\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.pdb
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\MongoDBDotNET6.genruntimeconfig.cache
+C:\Users\Manjunath Nayak\Desktop\MongoDBDotNET6Angular13\MongoDBDotNET6\MongoDBDotNET6\obj\Debug\net6.0\ref\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDBDotNET6.exe
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDBDotNET6.deps.json
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDBDotNET6.runtimeconfig.json
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDBDotNET6.pdb
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\linux\native\libsnappy64.so
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\linux\native\libzstd.so
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\osx\native\libzstd.dylib
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.AssemblyReference.cache
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.AssemblyInfoInputs.cache
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.AssemblyInfo.cs
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.CoreCompileInputs.cache
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\staticwebassets\msbuild.MongoDBDotNET6.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\staticwebassets\msbuild.build.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\scopedcss\bundle\MongoDBDotNET6.styles.css
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.CopyComplete
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\refint\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.pdb
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\MongoDBDotNET6.genruntimeconfig.cache
+C:\Users\Manjunath Nayak\Desktop\Final POC\Backend\obj\Debug\net6.0\ref\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDBDotNET6.exe
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDBDotNET6.deps.json
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDBDotNET6.runtimeconfig.json
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDBDotNET6.pdb
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\linux\native\libsnappy64.so
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\linux\native\libzstd.so
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\osx\native\libzstd.dylib
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.AssemblyReference.cache
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.AssemblyInfoInputs.cache
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.AssemblyInfo.cs
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.CoreCompileInputs.cache
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\staticwebassets\msbuild.MongoDBDotNET6.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\staticwebassets\msbuild.build.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\scopedcss\bundle\MongoDBDotNET6.styles.css
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.CopyComplete
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\refint\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.pdb
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\MongoDBDotNET6.genruntimeconfig.cache
+C:\Users\Manjunath Nayak\Desktop\desktop files\training files\Final-Poc\Project Code\Backend\obj\Debug\net6.0\ref\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDBDotNET6.exe
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDBDotNET6.deps.json
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDBDotNET6.runtimeconfig.json
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDBDotNET6.pdb
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\linux\native\libsnappy64.so
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\linux\native\libzstd.so
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\osx\native\libzstd.dylib
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Manjunath Nayak\Desktop\Backend\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.AssemblyReference.cache
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.AssemblyInfoInputs.cache
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.AssemblyInfo.cs
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.CoreCompileInputs.cache
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\staticwebassets\msbuild.MongoDBDotNET6.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\staticwebassets\msbuild.build.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MongoDBDotNET6.props
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\scopedcss\bundle\MongoDBDotNET6.styles.css
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.csproj.CopyComplete
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\refint\MongoDBDotNET6.dll
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.pdb
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\MongoDBDotNET6.genruntimeconfig.cache
+C:\Users\Manjunath Nayak\Desktop\Backend\obj\Debug\net6.0\ref\MongoDBDotNET6.dll

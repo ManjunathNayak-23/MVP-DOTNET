@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MongoDBDotNET6.props" />
+</Project>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ewavXsGI9hKCUf9lfY6UAsKAqMyNTLvZq1g1fL+rtyo=",
+  "Source": "MongoDBDotNET6",
+  "BasePath": "_content/MongoDBDotNET6",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
