@@ -43,7 +43,7 @@ pipeline {
                  script{
         def scannerHome = tool 'sonarqubeMS'
             withSonarQubeEnv() {
-          dotnetsonarqube.scan("mvp-dotnet",env.scannerHome)
+          dotnetsonarqube.scan("mvp-dotnet",scannerHome)
             }
                  }
              }
