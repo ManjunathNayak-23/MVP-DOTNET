@@ -48,7 +48,7 @@ pipeline {
                 }
             }
         }
-    }
+ 
 
      
         stage('OWASP Dependency-Check Vulnerabilities') {
