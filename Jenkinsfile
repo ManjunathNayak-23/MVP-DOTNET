@@ -63,25 +63,25 @@ pipeline {
 
         }
         stage('Deploy to Nexus') {
-      steps {
-        script {
+        steps {
+            script {
 
-          withCredentials([string(credentialsId: 'nexusurl', variable: 'NEXUS_URL'), string(credentialsId: 'mvp-dotnet-nexus-id', variable: 'NEXUS_REPO_ID'), string(credentialsId: 'nexuspassword', variable: 'NEXUS_PASSWORD'), string(credentialsId: 'nexususername', variable: 'NEXUS_USERNAME')]) {
-       dotnetNexus.push(NEXUS_USERNAME, NEXUS_PASSWORD, NEXUS_URL, NEXUS_REPO_ID, PACKAGE_NAME)
-    
-          }
+            withCredentials([string(credentialsId: 'nexusurl', variable: 'NEXUS_URL'), string(credentialsId: 'mvp-dotnet-nexus-id', variable: 'NEXUS_REPO_ID'), string(credentialsId: 'nexuspassword', variable: 'NEXUS_PASSWORD'), string(credentialsId: 'nexususername', variable: 'NEXUS_USERNAME')]) {
+        dotnetNexus.push(NEXUS_USERNAME, NEXUS_PASSWORD, NEXUS_URL, NEXUS_REPO_ID, PACKAGE_NAME)
+        
+            }
+            }
         }
-      }
     }
 
-stage('Build and Push Docker Image') {
-      steps {
-        script {
+        stage('Build and Push Docker Image') {
+            steps {
+                script {
 
-          dockertask.buildAndPush(env.IMAGE_NAME, env.BUILD_ID, env.DOCKERFILE_PATH, env.DOCKER_HUB_CREDENTIALS)
-        }
-      }
-    }
+                dockertask.buildAndPush(env.IMAGE_NAME, env.BUILD_ID, env.DOCKERFILE_PATH, env.DOCKER_HUB_CREDENTIALS)
+                }
+            }
+            }
  
 
      
@@ -93,6 +93,5 @@ stage('Build and Push Docker Image') {
       }
     }
 
-        
     }
 }
