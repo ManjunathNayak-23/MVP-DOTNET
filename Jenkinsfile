@@ -42,7 +42,7 @@ pipeline {
                  script{
       
             withSonarQubeEnv() {
-          dotnetsonarqube.scan("mvp-dotnet",'sonarqubeMS')
+          dotnetsonarqube.scan("mvp-dotnet")
             }
                  }
              }
