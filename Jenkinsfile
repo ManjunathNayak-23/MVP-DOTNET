@@ -97,7 +97,7 @@ pipeline {
                 script {
                     // Trigger the downstream pipeline (Pipeline B) only if the build is stable or successful
                     if (currentBuild.resultIsBetterOrEqualTo('SUCCESS')) {
-                        build job: 'AutoDeployToDev', parameters: [string(name: 'buildID', value: env.BUILD_ID)]
+                        build job: 'AutoDeploytoDev-dotnet', parameters: [string(name: 'buildID', value: env.BUILD_ID)]
                     } else {
                         echo 'Skipping downstream pipeline due to unsuccessful upstream build.'
                     }
