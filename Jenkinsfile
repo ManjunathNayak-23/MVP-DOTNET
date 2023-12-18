@@ -1,97 +1,95 @@
 @Library('sharedLibrary') _
 pipeline {
     agent any
- environment {
-     DOCKER_HUB_CREDENTIALS = 'dockercred' // Replace with your Docker Hub credentials ID
-     IMAGE_NAME = 'chandu2311/mvpdotnet'
-     DOCKERFILE_PATH = 'Dockerfile'
-     PACKAGE_NAME = 'mvp-dotnet'
- 
-  }
+
+    environment {
+        PACKAGE_NAME = 'mvp-dotnet-release'
+        OUTPUTFILENAME="dist.tar.gz"
+        SSHCONFIGNAME='sshtest'
+    }
+
+    parameters {
+        string(name: 'VERSION', defaultValue: '1.0', description: 'Enter the version number')
+        choice(name: 'ENVIRONMENT', choices: ['QA', 'Pre-Prod', 'Prod'], description: 'Select deployment environment')
+    }
+
     stages {
-        stage('Build') {
+        stage('set environment'){    
+              steps {
+                script {
+                     if (params.ENVIRONMENT == "QA") {
+                        SSHCONFIGNAME = 'QACRED'
+                    } else if (params.ENVIRONMENT == "Pre-Prod") {
+                        SSHCONFIGNAME = 'PREPRODCRED'
+                    } else {
+                        SSHCONFIGNAME = 'PRODCRED'
+                    }
+                    echo "SSH Configuration Name: ${SSHCONFIGNAME}"
+
+
+        }
+              }
+        }
+        stage('Download artifact from Nexus') {
             steps {
                 script {
-                  
-                 dotnetSteps.build()
+                
+                    
+                    withCredentials([
+                        string(credentialsId: 'nexusurl', variable: 'NEXUS_URL'),
+                        string(credentialsId: 'nexusrepo-release', variable: 'NEXUS_REPO_ID'),
+                        string(credentialsId: 'nexuspassword', variable: 'NEXUS_PASSWORD'),
+                        string(credentialsId: 'nexususername', variable: 'NEXUS_USERNAME')
+                    ]) {
+                        
+                        downloadNexusArtifact.download(OUTPUTFILENAME,NEXUS_USERNAME,NEXUS_PASSWORD,NEXUS_URL,NEXUS_REPO_ID,PACKAGE_NAME,params.VERSION)
+                }
+            }
+        }
+        }
+
+        stage("unzip artifact"){
+            steps{
+                script{
+                    sh "tar -xvf ${OUTPUTFILENAME}"
+
+
+
                 }
             }
         }
 
-        stage('Test') {
+         stage('Stop nginx and remote old version files') {
             steps {
                 script {
-                    // Run tests for your .NET application
-                   dotnetSteps.test()
+                    stopAndRemoveFiles.stopRemove(SSHCONFIGNAME)
+
+                
+                }
+               
+                
+            }
+        }
+
+
+
+        stage('Deploy to VM') {
+            steps {
+                script {
+                 
+                   deployToVM.startDeploy(SSHCONFIGNAME)
                 }
             }
         }
 
-        stage('Publish') {
+         stage('start nginx') {
             steps {
                 script {
-                    // Publish your .NET application if needed
-                    dotnetSteps.publish()
+                     startNginx.startService(SSHCONFIGNAME)
                 }
+               
+                
             }
         }
-
-         stage('SonarQube Analysis') {
-             steps{
-
-                 script{
-      
-            withSonarQubeEnv() {
-          dotnetsonarqube.scan("mvp-dotnet")
-            }
-                 }
-             }
-  }
-
-        stage('zip artifact'){
-        steps{
-            script{
-
-                sh 'tar -czvf artifact.tar.gz bin/Release/net6.0'
-    
-
-            }
-
-
-        }
-
-
-        }
-        stage('Deploy to Nexus') {
-        steps {
-            script {
-
-            withCredentials([string(credentialsId: 'nexusurl', variable: 'NEXUS_URL'), string(credentialsId: 'mvp-dotnet-nexus-id', variable: 'NEXUS_REPO_ID'), string(credentialsId: 'nexuspassword', variable: 'NEXUS_PASSWORD'), string(credentialsId: 'nexususername', variable: 'NEXUS_USERNAME')]) {
-        dotnetNexusTask.pushToNexus(NEXUS_USERNAME, NEXUS_PASSWORD, NEXUS_URL, NEXUS_REPO_ID, PACKAGE_NAME)
-        
-            }
-            }
-        }
-    }
-
-        stage('Build and Push Docker Image') {
-            steps {
-                script {
-
-                dockertask.buildAndPush(env.IMAGE_NAME, env.BUILD_ID, env.DOCKERFILE_PATH, env.DOCKER_HUB_CREDENTIALS)
-                }
-            }
-            }
- 
-
-     
-        stage('OWASP Dependency-Check Vulnerabilities') {
-      steps {
-        script {
-          dependencyCheckTask.owaspDependencyCheck()
-        }
-      }
-    }
-
     }
 }
