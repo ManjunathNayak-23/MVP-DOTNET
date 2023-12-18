@@ -68,7 +68,7 @@ pipeline {
 
             withCredentials([string(credentialsId: 'nexusurl', variable: 'NEXUS_URL'), string(credentialsId: 'mvp-dotnet-nexus-id', variable: 'NEXUS_REPO_ID'), string(credentialsId: 'nexuspassword', variable: 'NEXUS_PASSWORD'), string(credentialsId: 'nexususername', variable: 'NEXUS_USERNAME')]) {
         dotnetNexusTask.pushToNexus(NEXUS_USERNAME, NEXUS_PASSWORD, NEXUS_URL, NEXUS_REPO_ID, PACKAGE_NAME)
-        
+          
             }
             }
         }
@@ -92,6 +92,17 @@ pipeline {
         }
       }
     }
-
+ stage('Trigger Downstream Pipeline') {
+            steps {
+                script {
+                    // Trigger the downstream pipeline (Pipeline B) only if the build is stable or successful
+                    if (currentBuild.resultIsBetterOrEqualTo('SUCCESS')) {
+                        build job: 'AutoDeployToDev', parameters: [string(name: 'buildID', value: env.BUILD_ID)]
+                    } else {
+                        echo 'Skipping downstream pipeline due to unsuccessful upstream build.'
+                    }
+                }
+            }
+        }
     }
 }
