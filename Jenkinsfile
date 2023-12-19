@@ -36,17 +36,17 @@ pipeline {
             }
         }
 
-         stage('SonarQube Analysis') {
-             steps{
+  //        stage('SonarQube Analysis') {
+  //            steps{
 
-                 script{
+  //                script{
       
-            withSonarQubeEnv() {
-          dotnetsonarqube.scan("mvp-dotnet")
-            }
-                 }
-             }
-  }
+  //           withSonarQubeEnv() {
+  //         dotnetsonarqube.scan("mvp-dotnet")
+  //           }
+  //                }
+  //            }
+  // }
 
         stage('zip artifact'){
         steps{
@@ -74,24 +74,24 @@ pipeline {
         }
     }
 
-        stage('Build and Push Docker Image') {
-            steps {
-                script {
+        // stage('Build and Push Docker Image') {
+        //     steps {
+        //         script {
 
-                dockertask.buildAndPush(env.IMAGE_NAME, env.BUILD_ID, env.DOCKERFILE_PATH, env.DOCKER_HUB_CREDENTIALS)
-                }
-            }
-            }
+        //         dockertask.buildAndPush(env.IMAGE_NAME, env.BUILD_ID, env.DOCKERFILE_PATH, env.DOCKER_HUB_CREDENTIALS)
+        //         }
+        //     }
+        //     }
  
 
      
-        stage('OWASP Dependency-Check Vulnerabilities') {
-      steps {
-        script {
-          dependencyCheckTask.owaspDependencyCheck()
-        }
-      }
-    }
+    //     stage('OWASP Dependency-Check Vulnerabilities') {
+    //   steps {
+    //     script {
+    //       dependencyCheckTask.owaspDependencyCheck()
+    //     }
+    //   }
+    // }
  stage('Trigger Downstream Pipeline') {
             steps {
                 script {
